@@ -9,6 +9,6 @@ def ispalindrome(s):
         if s[i] != s[len(s) - i - 1]:
             ans = False
     return ans
-# test from question
+# test from question to see if the words are palindromes
 print(ispalindrome("radar"))
 print(ispalindrome("radars"))
